@@ -1,16 +1,16 @@
 // JavaScript Document
 
-//Change Display
+// Change Display
 function d(val) {
-	document.getElementbyId("d").value = val;
+	document.getElementById("d").value = val;
 }
 
-//Type numbers and operators
+// Type numbers and operators
 function v(val) {
 	document.getElementById("d").value += val;
 }
 
-//Evaluate the equation
+// Evaluate the equation
 function e() {
 	try {
 		d(eval(document.getElementById("d").value));
